@@ -11,9 +11,7 @@ void print_menu() {
 
 bool is_exit(int option) { return option == EXIT; }
 
-int add(int a, int b) {
-  // Your code here
-}
+int add(int a, int b) { return a + b; }
 
 int subtract(int a, int b) {
   // Your code here
