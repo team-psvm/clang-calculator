@@ -9,9 +9,7 @@ void print_menu() {
   printf("5. Exit\n");
 }
 
-bool is_exit(int option) {
-  // Your code here
-}
+bool is_exit(int option) { return option == EXIT; }
 
 int add(int a, int b) {
   // Your code here
